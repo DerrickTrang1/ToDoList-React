@@ -1,0 +1,184 @@
+/*container*/
+.container {
+}
+
+* {
+
+}
+a {
+  text-decoration: none;
+}
+
+/* Heading CSS*/
+.heading {
+  text-align: center;
+  background-color: #2f3030;
+}
+
+.heading h1 {
+  color: antiquewhite;
+  font-size: 4rem;
+  
+}
+
+.headingsidebar {
+  width: 35%;
+}
+.headingtitle {
+  display: flex;
+
+}
+.heading #title {
+  color: antiquewhite;
+  font-size: 4rem;
+  background-color: #212222;
+  padding: 60px;
+  width: 50%;
+  border-radius: 30px;
+  margin: 15px;
+
+}
+
+/* Nav */
+.navigationbar {
+  display: flex;
+  justify-content: space-evenly; 
+
+}
+
+.navbar {
+  display: flex;
+  border-radius: 40px;
+  background-color: #212222;
+  justify-content: space-evenly;
+  padding-left: 20%;
+  padding-right: 20%;
+
+  
+}
+.navBarCard  button {
+  color: antiquewhite;
+  padding: 1.25rem;
+  font-size: 3rem;
+  margin: auto;
+  background-color:#2f3030;
+  border-radius: 30px;
+}
+
+.navBarCard {
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
+
+/*Body*/
+html, body {
+  margin: 0px;
+
+}
+
+
+.wholeBody {
+  background-color: #2f3030;
+  color: antiquewhite;
+  display: flex;
+}
+
+.mainbody {
+  margin: 10px;
+  width: 80%;
+  border-radius: 30px;
+  background-color: #212222;
+  text-align: center;
+  
+}
+.mainbody h1 {
+  font-size: 2vw + 2vh;
+}
+
+.bodysidebar {
+  width: 20%;
+}
+
+/* Main Body Cards*/
+.firstcontentcard {
+  display: flex;
+}
+
+.mainbodycard {
+  margin: auto;
+  width: 30%;
+  border-radius: 40px;
+  height: 400px;
+  background-color: #2f3030;
+  
+}
+
+.verticalcolumncard {
+  padding: 20px;
+}
+
+.block {
+  display:flex;
+}
+
+.outercard {
+  display: flex;
+  justify-content: space-evenly;
+  border: 5px solid white;
+  border-radius: 30px;
+}
+
+.cardAdder {
+  background-color: #2f3030;
+  width: 30%;
+  margin: auto;
+  border-radius: 40px;
+  padding: 20px;
+  
+}
+
+.addbutton {
+  margin-top: 25px;
+  width: 25%;
+}
+.addbutton button{
+  background-color: palegreen;
+  width: 70%;
+  height: 70%;
+  font-size: 5rem;
+}
+
+
+.cardAdder textarea {
+  display: block;
+  margin: auto;
+}
+
+.cardAdder input {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+.cardresults  {
+  background-color: #2f3030;
+  width: 30%;
+  margin: auto;
+  padding: 20px;
+  border-radius: 40px;
+}
+
+/* Footer */
+
+.footer {
+  padding: 20px;
+  border: 1px solid #2f3030 ;
+  color: antiquewhite;
+  text-align: center;
+  background-color: #2f3030;
+}
+
+
+
+

@@ -8,8 +8,8 @@ function Card(props) {
 }
 
 Card.defaultProps = {
-    name: "Testing",
-    cardinformation: "hello",
+    name: "sadfsfadadsf",
+    cardinformation: "DefasProp",
 };
 
 export default Card

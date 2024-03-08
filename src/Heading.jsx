@@ -9,8 +9,7 @@ function Heading() {
             </div>
             <div className="navigationbar">
                 <NavBar/>
-            </div>
-
+            </div>            
         </div>
 
     );

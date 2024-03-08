@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 
-function CardAdderRemover({ state, adderdata }) {
+function CardAdderAdder({ state, adderdata }) {
     const [Title, SetTitle] = useState("Type Title");
     const [Text, SetText] = useState("Type To DO")
 
@@ -19,22 +19,7 @@ function CardAdderRemover({ state, adderdata }) {
     }
 
 
-    if (state == "remover") {
-        return (
-            <div className="outercard">
-                <div className="cardremover">
-                    <h1><u>Remove Card</u></h1>
-                    <input type="text" name="title" id="title" placeholder="Remove To Do Card" />
-                </div>
-                <div className="removebutton">
-                    <button>-</button>
-                </div>
-                <div className="cardremovetest">
-
-                </div>
-            </div>
-        );
-    } else if (state == "adder") {
+    if (state == "adder") {
         return(
             <div className="outercard">
                 <div className="cardAdder">
@@ -59,4 +44,4 @@ function CardAdderRemover({ state, adderdata }) {
 
 }
 
-export default CardAdderRemover
+export default CardAdder
